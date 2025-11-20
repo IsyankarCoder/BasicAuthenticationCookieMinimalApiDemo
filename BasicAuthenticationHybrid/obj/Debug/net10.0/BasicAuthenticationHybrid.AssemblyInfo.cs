@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BasicAuthenticationHybrid")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4420adaa759f42256617ec1dc9012f473f667310")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7ffcad6431c7bf6d162925675fca4069a9fd2265")]
 [assembly: System.Reflection.AssemblyProductAttribute("BasicAuthenticationHybrid")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BasicAuthenticationHybrid")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
