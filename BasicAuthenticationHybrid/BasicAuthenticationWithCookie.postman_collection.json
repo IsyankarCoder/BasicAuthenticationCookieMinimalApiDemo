@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "161321bb-e620-4c4c-8062-f82ac140a79a",
+		"name": "BasicAuthenticationWithCookie",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7212503"
+	},
+	"item": [
+		{
+			"name": "Root",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5033/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5033",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "pas123",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5033/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5033",
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "secure",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5033/secure",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5033",
+					"path": [
+						"secure"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

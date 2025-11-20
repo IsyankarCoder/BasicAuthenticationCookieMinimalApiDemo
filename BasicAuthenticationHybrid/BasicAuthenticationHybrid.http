@@ -4,3 +4,18 @@ GET {{BasicAuthenticationHybrid_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+GET {{BasicAuthenticationHybrid_HostAddress}}
+Accept: application/json
+
+###
+GET {{BasicAuthenticationHybrid_HostAddress}}/login
+Accept: application/json
+Authorization: Basic YWRtaW46cGFzMTIz
+
+###
+GET {{BasicAuthenticationHybrid_HostAddress}}/secure
+Accept: application/json
+Authorization: Basic YWRtaW46cGFzMTIz
+
+###
